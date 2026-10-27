@@ -1,0 +1,185 @@
+
+body {
+    background-color: #f5e6d3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.tit {
+    background-color: #e8d2b8;
+    width: 500px;
+    height: 110px;
+    margin: 20px auto 30px;
+    padding: 10px 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tit h2 {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #0d2b45;
+}
+
+.tit p {
+    color: #0d2b45;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Product Images */
+
+.div1 img,
+.div2 img,
+.div3 img {
+    width: 450px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+
+
+p {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+
+
+h2 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+
+.btn {
+    width: 120px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #0d2b45;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #0d2b45;
+    background-color: #f6e5d1;
+}
+
+
+.container {
+    width: 1800px;
+    height: 900px;
+    overflow: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/* Product Cards */
+
+.div1,
+.div2,
+.div3 {
+    display: inline-block;
+    width: 500px;
+    height: 800px;
+    background-color: #ead6c2;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px 15px;
+}
+
+/* Famous Brands Section */
+
+.parent {
+    width: 1900px;
+    height: 650px;
+    background-image: url("../images/bb.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    overflow: auto;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+/* Brands Title 
+
+.brand-title {
+    color: #0d2b45;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+.brand-desc {
+    color: #0d2b45;
+    font-size: 18px;
+    font-weight: bold;
+}
+    */
+
+/* Brand Cards 
+
+.c1 {
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.c2 {
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.c3 {
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+    */
+
+
+.c1,
+.c2,
+.c3 {
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    margin: 0 35px;                
+    vertical-align: top;
+}
+
+/* Brand Images */
+
+.c1 img,
+.c2 img,
+.c3 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    object-fit: cover;
+}
+
+
+.footer{
+     text-align: center;
+     font-size: x-large;
+}
